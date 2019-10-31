@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "720134393847",
+    "firebase_url": "https://quizz4games.firebaseio.com",
+    "project_id": "quizz4games",
+    "storage_bucket": "quizz4games.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720134393847:android:9c981231ed71c3b1",
+        "android_client_info": {
+          "package_name": "com.sandu.quizz4games"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "720134393847-9t3mb7kb85n89endmasheccnptqjdd8g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sandu.quizz4games",
+            "certificate_hash": "77fb4f56bd5f02308bbe7118e4a7e1e81c08bf6e"
+          }
+        },
+        {
+          "client_id": "720134393847-13h08fvh14j4dlp7ugh0g0rt4eshc8pa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRLDXtRhepTC-addXPr24cqb3QEHJvrc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "720134393847-13h08fvh14j4dlp7ugh0g0rt4eshc8pa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

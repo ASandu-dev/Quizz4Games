@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:fitsSystemWindows="true"
+    tools:context="com.sandu.quizz4games.Home"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="202dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/logo"
+        android:contentDescription="@string/todo"
+        ads:layout_constraintBottom_toTopOf="@+id/btn_play"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintStart_toStartOf="parent"
+        ads:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="250dp"
+        android:layout_height="69dp"
+        android:background="@drawable/button_custom_play"
+        android:text="@string/endless"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        ads:layout_constraintBottom_toTopOf="@+id/q4g_btn"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintStart_toStartOf="parent"
+        ads:layout_constraintTop_toBottomOf="@+id/logo" />
+
+    <Button
+        android:id="@+id/q4g_btn"
+        android:layout_width="250dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/button_disabled_q4g"
+        android:text="@string/q4g"
+        android:textColor="#ADADAD"
+        android:textSize="24sp"
+        ads:layout_constraintBottom_toTopOf="@+id/profile_btn"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintStart_toStartOf="parent"
+        ads:layout_constraintTop_toBottomOf="@+id/btn_play" />
+
+    <Button
+        android:id="@+id/profile_btn"
+        android:layout_width="250dp"
+        android:layout_height="69dp"
+        android:background="@drawable/button_custom_play"
+        android:text="@string/profile"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        ads:layout_constraintBottom_toTopOf="@+id/share_btn"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintStart_toStartOf="parent"
+        ads:layout_constraintTop_toBottomOf="@+id/q4g_btn" />
+
+    <Button
+        android:id="@+id/share_btn"
+        android:layout_width="250dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/button_disabled_q4g"
+        android:text="@string/leader_board"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        ads:layout_constraintBottom_toTopOf="@+id/add"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintStart_toStartOf="parent"
+        ads:layout_constraintTop_toBottomOf="@+id/profile_btn" />
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/add"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-6713122281367015/8246895880"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintHorizontal_bias="0.5"
+        ads:layout_constraintStart_toStartOf="parent"
+        ads:layout_constraintTop_toTopOf="parent"
+        ads:layout_constraintVertical_bias="1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
